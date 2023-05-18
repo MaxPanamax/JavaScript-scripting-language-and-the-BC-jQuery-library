@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .heading {
+            font-weight: 700;
+            font-size: 54px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading"><img src="машина2.jpg" width="100"/>Продажа автомобилей</div>
+    <form action="=/" method="get" id="form">
+        <div>
+            <label>Компания</label>
+            <select name="company" id="name">
+                <option value="bmw">BMW</option>
+                <option value="audi">AUDI</option>
+                <option value="mercedes">MERCEDES</option>
+            </select>
+        </div>
+        <div>
+            <label>Цвет</label>
+            <select name="color" id="color">
+                <option value="black">черный</option>
+                <option value="red">красный</option>
+                <option value="green">зеленый</option>
+            </select>
+        </div>
+        <div>
+            <label>Объем двигателя</label>
+            <select name="volume" id="volume">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <button type="submit">Найти</button>
+    </form>
+
+
+
+    <script src="https://developers.google.com/speed/libraries?hl=en#jquery"></script>
+    <script src="найти_по_данным.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Картинки</title>
+    <style>
+        .thumbnail-images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .thumbnail-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+        }
+
+            .thumbnail-image.active {
+                border: 1px solid blue;
+            }
+    </style>
+</head>
+<body>
+    <div class="thumbnail-images">
+        <img class="thumbnail-image" data-src="картинка1.jpg" alt="Thumbnail 1">
+        <img class="thumbnail-image" data-src="картинка2.jpg" alt="Thumbnail 2">
+        <img class="thumbnail-image" data-src="картинка3.jpg" alt="Thumbnail 3">
+        <!-- поменяйте имя картинки и будет показыватся дефолтная картинка -->
+    </div>
+
+    <img class="full-image" src="" alt="Full Image">
+    <script src="Картинки.js"></script>
+</body>
+</html>

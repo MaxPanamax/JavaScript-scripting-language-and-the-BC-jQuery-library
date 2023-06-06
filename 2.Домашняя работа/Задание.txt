@@ -1,0 +1,1 @@
+"Разобраться со всеми опциями и событиями owl carousel. https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html Создать свои custom кнопки для переключения слайдов, при переключении next/prev записывать данные в local storage (active-slide-info: value). При инициализации карусели посчитать количество слайдов и вывести в консоль.”

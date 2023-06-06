@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Касса кинотеатра</title>
+    <style>
+        .cinema {
+            width: 100%;
+            background-image: url("Кинотеатр.jpg");
+        }
+        .welcome {
+            text-align: center;
+            padding: 100px;
+            font-weight: bold;
+            color: deeppink;
+            font-size: 50px;
+            font-style: italic;
+        }
+        .place, .forms {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding:3%;
+        }
+            .place > div {
+                margin: 5px;
+                padding: 20px;
+                width: 30px;
+                text-align: center;
+                border: 1px solid;
+            }
+        .numberPlace {
+            background-color: beige;
+        }
+        .chooisePlace {
+            background-color: cadetblue;
+        }
+        .forms input {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        .forms button {
+            width: 100%;
+        }
+        .forms {
+            display: none;
+        }
+        label {
+            font-size: 30px;
+            font-style: italic;
+            color: deeppink;
+        }
+        button {
+            font-style: italic,;
+            color: blue;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="cinema">
+        <div class="welcome">Выбирите понравившейся место</div>
+        <div class="place">
+        </div>
+        <div class="forms">
+            <form>
+                <div>
+                    <label for="birthDay">День рождения:</label>
+                    <input type="date" name="userBirthDay" id="birthDay" placeholder="Днюха">
+                </div>
+                <div>
+                    <label for="FIO">ФИО:</label>
+                    <input type="text" name="userFIO" id="FIO" placeholder="Ваше ФИО"style="font-style: italic;" >
+                </div>
+                <button type="submit" id="buy">Купить</button>
+            </form>
+        </div>
+    </div>
+    <script src="Кинотеатр.js"></script>
+</body>
+</html>

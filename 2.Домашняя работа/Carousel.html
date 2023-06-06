@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карусель</title>
+    <link rel="stylesheet" href="carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="carousel/dist/assets/owl.theme.default.min.css">
+    <style>
+        body * {
+            box-sizing: border-box;
+        }
+        .customButtons {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        button {
+            width: 200px;
+            height: 100px;
+            font-weight: bold;
+            border-radius: 2%;
+        }
+        .owl-item {
+            height: 300px;
+        }
+        .owl-dot span {
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50%;
+            background-color: blue !important;
+        }
+        .owl-dot.active span {
+            background-color: deeppink !important;
+            border-color: rgb(1, 249, 55) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <a class="owl-video" href="https://youtu.be/LvPKP7OBySA?list=RDCMUCt36CWL85NGtOgUMZ2X6x5g"></a>
+        <a class="owl-video" href="https://youtu.be/hrwKUZ6LkCg?list=PLKP3l9fd3KUG5F_I8-i1Iin6HueZGQsqQ"></a>
+        <a class="owl-video" href="https://youtu.be/CTKBquykBIk?list=PLKP3l9fd3KUG5F_I8-i1Iin6HueZGQsqQ"></a>
+        <a class="owl-video" href="https://youtu.be/CN7FGwS7H_Y?list=PLKP3l9fd3KUG5F_I8-i1Iin6HueZGQsqQ"></a>
+        <a class="owl-video" href="https://youtu.be/bfHLFf0vrfU?list=PLhhjwMYxzoljeQx0MKPu9-IFgJy3wYRuh"></a>
+        <a class="owl-video" href="https://youtu.be/1HCMg45GHrI?list=PLhhjwMYxzoljeQx0MKPu9-IFgJy3wYRuh"></a>
+        <a class="owl-video" href="https://youtu.be/R4J014di8Vk?list=PLhhjwMYxzoljeQx0MKPu9-IFgJy3wYRuh"></a>
+        <a class="owl-video" href="https://youtu.be/A9pvcnV7hvo?list=PLhhjwMYxzoljeQx0MKPu9-IFgJy3wYRuh"></a>
+        <a class="owl-video" href="https://youtu.be/caYbObBDJyk?list=PLExjQhP_Jz8_y_c9iJxKkOQfdD7glOqfI"></a>
+        <a class="owl-video" href="https://youtu.be/oGxSDC-NAok?list=PLExjQhP_Jz8_y_c9iJxKkOQfdD7glOqfI"></a>
+        <a class="owl-video" href="https://youtu.be/9I99wEJrCK0?list=PLExjQhP_Jz8_y_c9iJxKkOQfdD7glOqfI"></a>
+        <a class="owl-video" href="https://youtu.be/U7xHcTrUgWo?list=PLExjQhP_Jz8_y_c9iJxKkOQfdD7glOqfI"></a>
+    </div>
+    <div class="customButtons">
+        <button class="customPrevBtn"><img src="лево.jpg" width="40" /></button>
+        <button class="customNextBtn"><img src="право.png" width="40"/></button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="carousel/dist/owl.carousel.min.js"></script>
+    <script src="Carousel.js"></script>
+</body>
+</html>

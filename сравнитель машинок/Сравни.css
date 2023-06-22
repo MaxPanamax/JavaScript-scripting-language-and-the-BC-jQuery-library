@@ -1,0 +1,69 @@
+﻿/* Стили для заголовка и навигации */
+body{
+    background-color:darkgray;
+}
+.car-card{
+    /*height:100%;*/
+    padding:0 90px 0 90px;
+}
+header {
+  /*  position:fixed;*/
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+main p {
+    font-size: 35px;
+    font-style: initial;
+    color: darkslategray;
+}
+button {
+    background-color: dimgray;
+    color: aliceblue;
+}
+button:focus {
+    vertical-align: middle;
+    background-color: lightgreen;
+    color: gray;
+}
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    nav li:last-child {
+        margin-right: 0;
+    }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+/* Стили для основной части страницы */
+main {
+    padding: 20px;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
